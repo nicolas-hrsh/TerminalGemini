@@ -22,7 +22,7 @@ def formatted_txt(text):
 
     return text
 # # #
-genai.configure(api_key="AIzaSyCF1_hxd-iuNql_iyftjcjZ0WVBdgu7Sn8")
+genai.configure(api_key="Your API KEY HERE FROM STEP 7")
 
 input1 = input("Question: ")
 input2 = input("Response type: ")
