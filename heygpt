@@ -1,0 +1,9 @@
+#!/bin/bash
+# Activate the virtual environment
+source Desktop/gm/venv/bin/activate
+
+# Run your Python script with the passed arguments
+python Desktop/jarvis.py "$1" "$2"
+
+# Deactivate the virtual environment after running the script
+deactivate
